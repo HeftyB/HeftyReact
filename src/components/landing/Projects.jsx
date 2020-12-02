@@ -1,10 +1,12 @@
 import React from "react";
 import nasa from "../imgs/nasa.jpg";
+import okta from "../imgs/Okta.png";
+import citrics from "../imgs/citrics.png";
 
 export default function Projects() {
     return (
         <>
-            <h1>PROJECTS</h1>
+            <span className="text-4xl font-bold text-white">- PROJECTS -</span>
 
             {/* <div>
                 <div className="container mx-auto border flex items-center my-3 mx-2 p-2 py-4 bg-gray-500 border-4 border-double border-black">
@@ -85,7 +87,162 @@ export default function Projects() {
                 </div>
             </div> */}
 
-            <div className="container mx-auto bg-gray-300 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-black shadow-xl">
+            <div className="container mx-auto bg-gray-500 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-green-600 shadow-xl">
+                <div className="w-64 rounded-full overflow-hidden border-2">
+                    <img src={nasa} alt="image" />
+                </div>
+                <div className="container w-6/12 mx-auto flex flex-col justify-between mt-4">
+                    <div className="text-4xl text-center align-text-bottom p-6">
+                        <span className="font-bold">
+                            <strong>Citrics</strong>
+                        </span>
+                        <hr />
+                        <span>
+                            <small>A city comparison application</small>
+                        </span>
+                    </div>
+
+                    <div className="text-left align-middle mb-4 py-2">
+                        <p>
+                            <span className="text-xl">
+                                Featured Technologies :
+                            </span>
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-col justify-center w-auto border-l pl-4">
+                    <div className="rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                            See the code
+                        </a>
+                    </div>
+                    <div className="rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+                            See the Project
+                        </a>
+                    </div>
+                    <div className="inline-flex rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+                            See the Blog Post
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto bg-gray-300 p-4 my-4 flex justify-evenly rounded-2xl border-2 border-green-600 shadow-2xl">
+                <div className="w-64 h-48 rounded-2xl overflow-hidden border-4 border-black self-center">
+                    <img src={citrics} alt="image" />
+                </div>
+                <div className="container w-8/12 mx-auto flex flex-col justify-between mt-4">
+                    <div className="text-4xl text-center align-text-bottom p-6">
+                        <p className="font-bold pb-2">
+                            <strong>Citrics</strong>
+                        </p>
+                        {/* &nbsp; &nbsp; */}
+                        <hr className="border-green-600" />
+                        <span>
+                            <small>A city comparison application</small>
+                        </span>
+                    </div>
+
+                    <div className="text-center align-middle mb-4 py-2">
+                        <p>
+                            <span className="text-xl">
+                                Featured Technologies :
+                            </span>
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn.svgporn.com/logos/redux.svg"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn.svgporn.com/logos/ant-design.svg"></img>
+
+                            <img
+                                className="inline-block w-20 mx-2"
+                                src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn.svgporn.com/logos/spring.svg"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn.svgporn.com/logos/postgresql.svg"></img>
+
+                            <img
+                                className="inline-block w-20 mx-2"
+                                src="https://cdn.svgporn.com/logos/heroku.svg"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src="https://cdn.svgporn.com/logos/aws.svg"></img>
+
+                            <img
+                                className="inline-block w-12 mx-2"
+                                src={okta}></img>
+                        </p>
+                    </div>
+                </div>
+                <div className="flex flex-col justify-center w-auto border-l border-green-600 pl-4">
+                    <div className="rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                            See the code
+                        </a>
+                    </div>
+                    <div className="rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+                            See the Project
+                        </a>
+                    </div>
+                    <div className="inline-flex rounded-md shadow my-2">
+                        <a
+                            href="#"
+                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
+                            See the Blog Post
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="container mx-auto bg-gray-500 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-green-600 shadow-2xl">
                 <div className="w-64 rounded-full overflow-hidden border-4 border-black">
                     <img src={nasa} alt="image" />
                 </div>
@@ -156,149 +313,7 @@ export default function Projects() {
                 </div>
             </div>
 
-            <div className="container mx-auto bg-gray-300 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-black shadow-2xl">
-                <div className="w-64 rounded-full overflow-hidden border-4 border-black">
-                    <img src={nasa} alt="image" />
-                </div>
-                <div className="container w-6/12 mx-auto flex flex-col justify-between mt-4">
-                    <div className="text-4xl text-center align-text-bottom p-6">
-                        <span className="font-bold">
-                            <strong>Citrics</strong>
-                        </span>
-                        <hr />
-                        <span>
-                            <small>A city comparison application</small>
-                        </span>
-                    </div>
-
-                    <div className="text-left align-middle mb-4 py-2">
-                        <p>
-                            <span className="text-xl">
-                                Featured Technologies :
-                            </span>
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-col justify-center w-auto border-l pl-4">
-                    <div className="rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-                            See the code
-                        </a>
-                    </div>
-                    <div className="rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-                            See the Project
-                        </a>
-                    </div>
-                    <div className="inline-flex rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-                            See the Blog Post
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container mx-auto bg-gray-300 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-black shadow-2xl">
-                <div className="w-64 rounded-full overflow-hidden border-4 border-black">
-                    <img src={nasa} alt="image" />
-                </div>
-                <div className="container w-6/12 mx-auto flex flex-col justify-between mt-4">
-                    <div className="text-4xl text-center align-text-bottom p-6">
-                        <span className="font-bold">
-                            <strong>Citrics</strong>
-                        </span>
-                        <hr />
-                        <span>
-                            <small>A city comparison application</small>
-                        </span>
-                    </div>
-
-                    <div className="text-left align-middle mb-4 py-2">
-                        <p>
-                            <span className="text-xl">
-                                Featured Technologies :
-                            </span>
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-
-                            <img
-                                className="inline-block w-12 mx-2"
-                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></img>
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-col justify-center w-auto border-l pl-4">
-                    <div className="rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
-                            See the code
-                        </a>
-                    </div>
-                    <div className="rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-                            See the Project
-                        </a>
-                    </div>
-                    <div className="inline-flex rounded-md shadow my-2">
-                        <a
-                            href="#"
-                            className="inline-flex items-center justify-center w-full px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50">
-                            See the Blog Post
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div className="container mx-auto bg-gray-300 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-black shadow-2xl">
+            <div className="container mx-auto bg-gray-300 px-4 py-2 my-4 flex justify-evenly rounded-2xl border-2 border-green-600 shadow-2xl">
                 <div className="w-64 rounded-full overflow-hidden border-4 border-black">
                     <img src={nasa} alt="image" />
                 </div>

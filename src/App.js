@@ -7,12 +7,14 @@ import WIP from "./components/landing/WIP";
 
 function App() {
     return (
-        <div className="App bg-gray-200">
+        <div className="App">
+            {/* <div className="wrapper"> */}
             <Nav />
             <Welcome />
             <Skills />
             <Projects />
             <WIP />
+            {/* </div> */}
         </div>
     );
 }
